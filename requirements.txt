@@ -23,7 +23,7 @@ scipy
 imageio
 easydict
 
-addict
+git+https://github.com/mewwts/addict@v2.4.0
 attrs
 datasets>=2.8.0,<=2.13.0
 filelock>=3.3.0
