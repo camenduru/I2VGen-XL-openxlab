@@ -72,4 +72,4 @@ def video_to_video(video_in, text_in):
     image_submit.click(fn=image_to_video, inputs=[image_in], outputs=[video_out_1])
     video_submit.click(fn=video_to_video, inputs=[video_out_1, text_in], outputs=[video_out_2])
 
-demo.queue(max_size=10).launch(share=True)
+demo.queue(max_size=10).launch()
