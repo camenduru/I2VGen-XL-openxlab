@@ -1,14 +1,12 @@
---extra-index-url https://download.pytorch.org/whl/cu117
-torch==2.0.1+cu117
-torchvision==0.15.2+cu117
-torchaudio==2.0.2+cu117
-torchtext==0.15.2
-torchdata==0.6.1
+--extra-index-url https://download.pytorch.org/whl/nightly/cu118
+torch
+torchvision
+torchaudio
+torchtext
+torchdata
 xformers==0.0.20
 triton==2.0.0
 
-xformers==0.0.20
-triton==2.0.0
 gradio
 torchsde
 open_clip_torch
