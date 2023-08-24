@@ -1,10 +1,10 @@
 import os
-os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/camenduru/damo-video-to-video/resolve/main/open_clip_pytorch_model.bin -d /root/.cache/modelscope/hub/damo/Video-to-Video -o open_clip_pytorch_model.bin")
-os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/camenduru/damo-video-to-video/resolve/main/non_ema_0035000.pth -d /root/.cache/modelscope/hub/damo/Video-to-Video -o non_ema_0035000.pth")
-os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/camenduru/damo-video-to-video/resolve/main/v2-1_512-ema-pruned.ckpt -d /root/.cache/modelscope/hub/damo/Video-to-Video -o v2-1_512-ema-pruned.ckpt")
-os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/camenduru/damo-image-to-video/resolve/main/base_03_alldata_fps_v_80g_0789000.pth -d /root/.cache/modelscope/hub/damo/Image-to-Video -o base_03_alldata_fps_v_80g_0789000.pth")
-os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/camenduru/damo-image-to-video/resolve/main/open_clip_pytorch_model.bin -d /root/.cache/modelscope/hub/damo/Image-to-Video -o open_clip_pytorch_model.bin")
-os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/camenduru/damo-image-to-video/resolve/main/v2-1_512-ema-pruned.ckpt -d /root/.cache/modelscope/hub/damo/Image-to-Video -o v2-1_512-ema-pruned.ckpt")
+os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/camenduru/damo-video-to-video/resolve/main/open_clip_pytorch_model.bin -d /home/cache/modelscope/hub/damo/Video-to-Video -o open_clip_pytorch_model.bin")
+os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/camenduru/damo-video-to-video/resolve/main/non_ema_0035000.pth -d /home/cache/modelscope/hub/damo/Video-to-Video -o non_ema_0035000.pth")
+os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/camenduru/damo-video-to-video/resolve/main/v2-1_512-ema-pruned.ckpt -d /home/cache/modelscope/hub/damo/Video-to-Video -o v2-1_512-ema-pruned.ckpt")
+os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/camenduru/damo-image-to-video/resolve/main/base_03_alldata_fps_v_80g_0789000.pth -d /home/cache/modelscope/hub/damo/Image-to-Video -o base_03_alldata_fps_v_80g_0789000.pth")
+os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/camenduru/damo-image-to-video/resolve/main/open_clip_pytorch_model.bin -d /home/cache/modelscope/hub/damo/Image-to-Video -o open_clip_pytorch_model.bin")
+os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/camenduru/damo-image-to-video/resolve/main/v2-1_512-ema-pruned.ckpt -d /home/cache/modelscope/hub/damo/Image-to-Video -o v2-1_512-ema-pruned.ckpt")
 
 import gradio as gr
 from modelscope.pipelines import pipeline
