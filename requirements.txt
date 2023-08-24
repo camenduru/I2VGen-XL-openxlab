@@ -23,7 +23,7 @@ scipy
 imageio
 easydict
 
-git+https://github.com/mewwts/addict@v2.4.0
+addict
 attrs
 datasets>=2.8.0,<=2.13.0
 filelock>=3.3.0
@@ -42,4 +42,3 @@ sortedcontainers>=1.5.9
 tqdm>=4.64.0
 urllib3>=1.26
 yapf
-git+https://github.com/modelscope/modelscope 
