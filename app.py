@@ -107,8 +107,16 @@ def image_to_video(image_in):
 #     return output_video_path
 
 with gr.Blocks() as demo:
-    gr.Markdown(f'''<center>🐣 Please follow me for new updates https://twitter.com/camenduru 🔥 Please join our discord server https://discord.gg/k5BwmmvJJU 🥳 Please join my patreon community https://patreon.com/camenduru</center>''')
-    gr.Markdown(f'''<center>📄paper: https://arxiv.org/abs/2306.02018 🖼https://modelscope.cn/models/damo/Image-to-Video/summary 🎥https://modelscope.cn/models/damo/Video-to-Video/summary 🧪demo: https://modelscope.cn/studios/damo/I2VGen-XL-Demo/summary</center>''')
+    gr.Markdown(f'''<center>
+                    🐣 Please follow me for new updates <a href="https://twitter.com/camenduru">https://twitter.com/camenduru</a>
+                    🔥 Please join our discord server <a href="https://discord.gg/k5BwmmvJJU">https://discord.gg/k5BwmmvJJU</a>
+                    🥳 Please join my patreon community <a href="https://patreon.com/camenduru">https://patreon.com/camenduru</a>
+                    </center>''')
+    gr.Markdown(f'''<center>
+                    📄 Paper: <a href="https://arxiv.org/abs/2306.02018">https://arxiv.org/abs/2306.02018</a>
+                    📦 Image to Video Model: <a href="https://modelscope.cn/models/damo/Image-to-Video/summary">https://modelscope.cn/models/damo/Image-to-Video/summary</a>
+                    📦 Video to Video Model: <a href="https://modelscope.cn/models/damo/Video-to-Video/summary">https://modelscope.cn/models/damo/Video-to-Video/summary</a>
+                    </center>''')
     with gr.Box():
         with gr.Row():
             with gr.Column():
