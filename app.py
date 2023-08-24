@@ -1,4 +1,4 @@
-# import os
+import os
 !aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/camenduru/damo-video-to-video/resolve/main/open_clip_pytorch_model.bin -d /home/cache/modelscope/hub/damo/Video-to-Video -o open_clip_pytorch_model.bin
 !aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/camenduru/damo-video-to-video/resolve/main/non_ema_0035000.pth -d /home/cache/modelscope/hub/damo/Video-to-Video -o non_ema_0035000.pth
 !aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/camenduru/damo-video-to-video/resolve/main/v2-1_512-ema-pruned.ckpt -d /home/cache/modelscope/hub/damo/Video-to-Video -o v2-1_512-ema-pruned.ckpt
