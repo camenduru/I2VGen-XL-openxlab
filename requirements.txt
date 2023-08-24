@@ -16,3 +16,5 @@ einops
 rotary-embedding-torch
 fairscale
 modelscope
+pytorch-lightning
+torchmetrics

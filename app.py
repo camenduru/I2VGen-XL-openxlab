@@ -38,7 +38,7 @@ def video_to_video(video_in, text_in):
     print(output_video_path)
     return output_video_path
 
-    with gr.Blocks() as demo:
+with gr.Blocks() as demo:
         gr.Markdown(
         """<center><font size=7>I2VGen-XL Demo</center>
         <center><font size=3>I2VGen-XL can generate videos that closely resemble the desired content based on user-input static images and text. The generated videos are characterized by high definition (1280 * 720), widescreen (16:9), temporal coherence, and good visual quality.</center>"""
