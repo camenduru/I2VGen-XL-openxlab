@@ -18,3 +18,4 @@ fairscale
 modelscope
 pytorch-lightning
 torchmetrics
+opencv-python
