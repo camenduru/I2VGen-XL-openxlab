@@ -107,14 +107,9 @@ def image_to_video(image_in):
 #     return output_video_path
 
 with gr.Blocks() as demo:
-    gr.Markdown(
-    """<center><font size=7>I2VGen-XL Demo</center>
-    <center><font size=3>I2VGen-XL can generate videos that closely resemble the desired content based on user-input static images and text. The generated videos are characterized by high definition (1280 * 720), widescreen (16:9), temporal coherence, and good visual quality.</center>"""
-    )
+    gr.Markdown(f'''<center>🐣 Please follow me for new updates https://twitter.com/camenduru 🔥 Please join our discord server https://discord.gg/k5BwmmvJJU 🥳 Please join my patreon community https://patreon.com/camenduru</center>''')
+    gr.Markdown(f'''<center>📄paper: https://arxiv.org/abs/2306.02018 🖼https://modelscope.cn/models/damo/Image-to-Video/summary 🎥https://modelscope.cn/models/damo/Video-to-Video/summary 🧪demo: https://modelscope.cn/studios/damo/I2VGen-XL-Demo/summary</center>''')
     with gr.Box():
-        gr.Markdown(
-        """<left><font size=3>Step 1: Select the appropriate image for upload, then click 'Generate Video.' Once you are satisfied with the video, proceed to the next step.</left>"""
-        )
         with gr.Row():
             with gr.Column():
                 image_in = gr.Image(label="Image input", type="filepath", interactive=False, elem_id="image-in", height=300)
